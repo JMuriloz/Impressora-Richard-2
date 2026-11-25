@@ -24,6 +24,8 @@ public class Main {
             return new String(data, StandardCharsets.UTF_8);
         }
 
+  // Interface
+        
         int AbreConexaoImpressora(int tipo, String modelo, String conexao, int param);
 
         int FechaConexaoImpressora();
